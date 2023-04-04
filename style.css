@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+
+
+.box{
+	width: 500px;
+	margin: 20px auto;
+	border: 3px solid black;
+	height: 1100px;
+}
+
+.box-title{
+	color: white;
+	background-color: #862fa0;
+	padding: 8px;
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+}
+
+.box-second_title{
+	color: black;
+	background-color: #a2a3b9;
+	padding: 8px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+}
+
+.box-img{
+	width: 100%;
+	margin-bottom: 30px;
+	position: sticky;
+	top: 0;
+}
+
+.box-text{
+	text-align: justify;
+	text-indent: 30px;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+.textes{
+	background-color: white;
+	position: relative;
+	z-index: 5;
+}
+
+.planner{
+	height: 70vh;
+	text-align: center;
+	background-color: ghostwhite;
+}
+
+.planner-title{
+	font-weight: bold;
+	font-size: 60px;
+	position: relative;
+	top: 200px;
+	z-index: 999;
+	animation: wave 3s ease 0s infinite;
+}
+
+.title-red{
+	color: red;
+	opacity: 0.7;
+	position: relative;
+	top: 115px;
+	left: 5px;
+	z-index: 23;
+	animation: wave 3s ease 0s infinite reverse;
+}
+
+.title-blue{
+	color: blue;
+	opacity: 0.5;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	z-index: 1;
+	animation: wave 3s ease 0s infinite alternate;
+}
+
+.button{
+	background-color: #862fa0;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	position: absolute;
+	top: 50%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	line-height: 40px;
+	text-align: center;
+}
+
+.videoyt{
+	width:100%;
+	margin-top: 40px;
+	text-align:center
+}
+
+.up-button{
+	border-radius: 360px;
+	background-color: #862fa0;
+	width: 80px;
+	position: fixed;
+	top: 90%;
+	left: 90%;
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+
+}
+
+@keyframes wave{
+	0%{
+		transform: translate(0px);
+	}
+	50%{
+		transform: translate(20px, 20px);
+	}	
+	100%{
+		transform: translate(0px);
+	}
+
+}
